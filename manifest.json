@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Lotto 6-49",
+  "name": "First blockchain lotto 6-49",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,15 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
+  "start_url": "https://thangnm-ibl.github.io/pwa/",
+  "scope_url": "https://thangnm-ibl.github.io/pwa/",
+  "intent_filters": {
+    "scope_url_scheme": "https",
+    "scope_url_host": "thangnm-ibl.github.io",
+    "scope_url_path": "/pwa"
+  },
+  "display": "standalone", 
   "theme_color": "#000000",
+  "orientation": "portrait",
   "background_color": "#ffffff"
 }
